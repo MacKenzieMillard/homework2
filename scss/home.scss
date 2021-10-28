@@ -1,0 +1,57 @@
+.home {
+  max-width: 1280px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(242, 92, 84, 0.8),
+      rgba(242, 92, 84, 0.8)
+    ),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+
+  .yellowCircle {
+    width: 358px;
+    height: 358px;
+    border-radius: 50%;
+    background-color: #ffd972;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h1 {
+      width: 220px;
+      padding-top: 50px;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    h6 {
+      width: 164px;
+      font-size: 13px;
+      text-align: center;
+    }
+  }
+
+  .pinkCircle {
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+    margin-right: 30%;
+    background-color: #fcbcb8;
+
+    p {
+      width: 105px;
+      font-size: 10px;
+      text-align: center;
+      margin: 0 auto;
+      padding-top: 60px;
+    }
+  }
+}
